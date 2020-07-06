@@ -108,7 +108,7 @@ const Home = () => {
           </div>
           <div className="row">
             <div className="col-sm-3 col-xs-6 wow fadeInRight animated">
-              <a href="digital-marketing.html">
+              <Router to="/digitalmarketing">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -121,11 +121,11 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+              </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInLeft animated">
-              <a href="audio-visual-photography.html">
+            <Router to="/audiovisualphotography">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -138,11 +138,11 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+              </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInRight animated">
-              <a href="promotion.html">
+            <Router to="/promotion">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -155,11 +155,11 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-16"> </p>
                 </div>
-              </a>
+              </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInRight animated">
-              <a href="static-branding.html">
+            <Router to="/staticbranding">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -172,11 +172,11 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+              </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInLeft animated">
-              <a href="hoarding.html">
+            <Router to="/hoarding">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -189,11 +189,11 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+             </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInRight animated">
-              <a href="printing-collaterals.html">
+            <Router to="/printingcollaterals">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -206,11 +206,11 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+              </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInLeft animated">
-              <a href="software-it-products.html">
+            <Router to="/softwareitProducts">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -223,11 +223,11 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+              </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInLeft animated">
-              <a href="events.html">
+            <Router to="/events">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -240,7 +240,7 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+             </Router>
             </div>
           </div>
         </div>
